@@ -6,7 +6,7 @@ import "./style.css";
 
 class Projects extends Component {
   state = {
-    projects
+    projects,
   };
 
   render () {

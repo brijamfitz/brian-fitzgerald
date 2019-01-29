@@ -40,16 +40,6 @@ body {
   margin: 0px 0px 10px 20px;
 }
 
-.curly-bracket-left,
-.curly-bracket-right {
-  font-size: 200px;
-  font-weight: lighter;
-}
-
-#info-section {
-  margin-top: 80px;
-}
-
 a {
   color: lime;
 }
