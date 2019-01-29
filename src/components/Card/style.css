@@ -1,0 +1,22 @@
+.project-img {
+    height: 200px;
+    width: 300px;
+    float: left;
+    border: solid;
+    border-color: hotpink;
+    margin-right: 20px;
+}
+
+.card {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.title {
+    font-size: 24px;
+    color: hotpink;
+}
+
+hr {
+    border-color: lime;
+}
