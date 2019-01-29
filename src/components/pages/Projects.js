@@ -6,36 +6,27 @@ import "./style.css";
 
 class Projects extends Component {
   state = {
-    projects,
+    projects
   };
 
   render () {
     return (
       <div className="project-card">
         <h1 style={{ textAlign: "center" }}>My Projects</h1>
-        
-        <div className="row">
-        <div className="col-2"></div>
-        <div className="col-8">
         <hr />
-      {this.state.projects.map((project) => (
-        
-        <Card
-          key={project.id}
-          image={project.image}
-          title={project.title}
-          url={project.url}
-          github_url={project.github_url}
-          description={project.description}
-        />
-      ))}
-      </div>
-      <div className="col-2"></div>
-      </div>
-
-      <Link to="/" className="homepage">
-            <p style={{ textAlign: "center" }}>Return to Homepage</p>
-      </Link>
+        {this.state.projects.map((project) => (
+          <Card
+            key={project.id}
+            image={project.image}
+            title={project.title}
+            url={project.url}
+            github_url={project.github_url}
+            description={project.description}
+          />
+        ))}
+        <Link to="/" className="homepage">
+          <p style={{ textAlign: "center" }}>Return to Homepage</p>
+        </Link>
       </div>
   );
 }
