@@ -13,8 +13,13 @@ class Projects extends Component {
     return (
       <div className="project-card">
         <h1 style={{ textAlign: "center" }}>My Projects</h1>
+        
+        <div className="row">
+        <div className="col-2"></div>
+        <div className="col-8">
         <hr />
       {this.state.projects.map((project) => (
+        
         <Card
           key={project.id}
           image={project.image}
@@ -24,6 +29,10 @@ class Projects extends Component {
           description={project.description}
         />
       ))}
+      </div>
+      <div className="col-2"></div>
+      </div>
+
       <Link to="/" className="homepage">
             <p style={{ textAlign: "center" }}>Return to Homepage</p>
       </Link>
