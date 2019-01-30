@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/brian-fitzgerald/precache-manifest.faba282f918d80b2d1626adce67bde91.js"
+  "/brian-fitzgerald/precache-manifest.560fb6f599cac7c46a8df51a8d756b43.js"
 );
 
 workbox.clientsClaim();
